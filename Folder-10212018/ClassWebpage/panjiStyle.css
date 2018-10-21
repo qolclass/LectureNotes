@@ -1,0 +1,83 @@
+
+* 
+{
+    box-sizing: border-box;
+    /* border-left: 1px solid gray;*/
+}
+
+body 
+{
+    margin: 2;
+}
+
+/* Create 4 equal columns that float next to each other */
+.column 
+{
+    float: left;
+    width: 33%;
+    padding: 2px;
+    height: 180px;  /* Remove after Testing */
+}
+footer
+{
+    position: fixed;
+    left margin: 1px;
+    right margin: 1px;
+    bottom: 0;
+    width: 99%;
+    background-color: red;
+   /* background-color:teal; */
+    color: yellow;
+    text-align: center;
+    height:40px
+}
+.container
+{
+   width:380px;
+   height:200px;
+   background:#d3d3d3;
+}
+
+.floatingDiv
+{
+   float:left;
+   width:50px; 
+   height:40px;  
+   margin:5px;
+}
+
+
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul#menu 
+{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul#menu li 
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+ul#menu li a 
+{
+    background-color: orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    <-- color: #696969; -->
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover 
+{
+    color: yellow;
+    background-color: green;
+}
