@@ -1,2 +1,0 @@
-# LectureNotes
-class notes
